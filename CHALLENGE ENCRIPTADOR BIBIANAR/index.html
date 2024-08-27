@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
+    <link rel="stylesheet" href="./css/Styles.css"> 
+    <title>Challenge Encriptador</title>
+</head>
+
+<body>
+    
+    <!-- Encabezado-->
+    
+    <header>
+        <a href="#" rel="">
+            <img src="./imagenes/logo.svg" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+
+    <!--Seccion main-->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingresa el texto aquí, por favor digite solo palabras en minúscula, sin tilde, sin caracteres especiales:"></textarea>
+            <div class="encriptador-aviso">
+                    <img src="./imagenes/aviso.svg" alt="Imagen Aviso" class="img-aviso">
+                    <p class="texto-aviso">Favor ingrese el texto este campo, no debe estar vacio</p>
+            </div>
+            <div class="encriptador-contenedor">
+              <button type="submit" class="enviaencriptar">¡Encriptar!</button>  
+              <button type="submit" class="desencriptar">¡Desencriptar!</button>
+            </div>
+        </section>
+
+        <section class="Tarjeta">
+            <div class="Tarjeta-Contenedor">
+                <img src="./imagenes/muñeco.svg" alt="Personaconlupa" class="imgpersona">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto a encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="copiar">Copiar resultado</button>
+        </section>
+    </main>
+    
+    <!--Pie de pagina-->
+    <footer>
+        <p class="copyright">&copy; copyright 2024 Encriptador de Texto Elaborado por Bibiana Rodríguez</p>
+        <a href="#" rel="">
+            <img src="./imagenes/linkedin.svg" alt="logo Linkedin" class="linked">
+        </a>
+        <a href="#" rel="">
+            <img src="./imagenes/github.svg" alt="logo Github" class="git">
+        </a>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
